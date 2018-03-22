@@ -1,5 +1,16 @@
 # Chef SA Workshops
 
+## Solution Notes (from Mudassar)
+* Both MongoDB and Tomcat workshops have been completed
+* Cookbooks have been loaded separately for each workshop under their main folder
+* MongoDB Cookbook
+   - Direct Link: https://github.com/mudash/workshops/tree/master/1_MongoDB/cookbooks
+   - To run: chef-client --local-mode --runlist 'recipe[mongo_install]'
+* Tomcat Cookbook
+   - Direct Link: https://github.com/mudash/workshops/tree/master/2_Tomcat/cookbooks
+   - To run: chef-client --local-mode --runlist 'recipe[tomcat_install]'
+* Both cookbooks developed and tested on RHEL 
+
 ## Instructions
 
 Complete the mandatory workshops below. These may be completed in any order, but it the recommendation is `1_MongoDB` then `2_Tomcat`.
